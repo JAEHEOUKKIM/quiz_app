@@ -16,7 +16,7 @@ class ResultScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    final calculatedScore = (score / totalQuestions) * 100;
+    final calculatedScore = (score / totalQuestions/10) * 100;
 
     return Scaffold(
       appBar: AppBar(
